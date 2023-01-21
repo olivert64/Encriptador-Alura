@@ -43,12 +43,10 @@ function desEncriptar() {
 function copiarTexto() {
   var text = document.getElementById("textA2").value;
   var textoCopy = document.getElementById("textA2");
-  if(text ===""){
-    alert("No hay texto para copiar");
-  }else{
-    textoCopy.select();
-    document.execCommand("copy");
-    alert("Texto Copiado Correctamente!");
-  }
+
+  textoCopy.select();
+  document.execCommand("copy");
+  alert("Texto Copiado Correctamente!");
+  
 
 }

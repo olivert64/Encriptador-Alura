@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="funcionalidad.js"></script>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="imagenes/Vector.png" alt="Logo Alura">
+            </div>
+        </header>
+
+        <main>
+            <section class="principal">
+
+                <textarea class="textArea1" name="" id="textA1" placeholder="Ingrese el texto aqui...."></textarea>
+
+                <div class="aviso">
+                    <p> &#9432 Solo letras minusculas y sin acento</p>
+                </div>
+                <div class="botones">
+
+                    <button onclick="encriptar()" class="btn1">
+                        <p>ENCRIPTAR</p>
+                    </button>
+                    <button onclick="desEncriptar()" class="btn2">
+                        <p>DESENCRIPTAR</p>
+                    </button>
+
+                </div>
+            </section>
+
+            <section class="temp" id="tempp">
+
+                <div class="imagen">
+                    <img src="imagenes/Muñeco.png" alt="">
+                </div>
+
+                <div class="title">
+                    <p>Ningún mensaje fue encontrado</p>
+                </div>
+
+                <div class="descripcion">
+                    <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                </div>
+
+            </section>
+
+            <section class="salida" id="salidaa">
+                <div>
+                    <textarea class="textArea2" id="textA2" readonly></textarea>
+                </div>
+                <div>
+                    <button onclick="copiarTexto()" class="btnCopiar">
+                        <p>COPIAR</p>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+
+
+</html>

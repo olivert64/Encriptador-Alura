@@ -26,6 +26,7 @@ main {
     background: #F3F5FC;
     width: 90%;
     height: 288px;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
@@ -177,6 +178,7 @@ main {
     padding: 24px;
     border: 1px solid #0A3871;
     border-radius: 24px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -210,10 +212,6 @@ main {
         width: auto;
     }
 
-    .aviso {
-        margin-top: 0px;
-    }
-
     .temp img {
         display: none;
     }
@@ -223,6 +221,9 @@ main {
         margin-bottom: 30px;
     }
 
+    .aviso {
+        margin-top: 0px;
+    }
 
     .botones {
         flex-direction: column;
@@ -235,6 +236,5 @@ main {
         width: 100%;
         margin: auto;
     }
-
 
 }
